@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_28_224546) do
+ActiveRecord::Schema.define(version: 2020_03_04_000010) do
 
   create_table "mountain_ranges", force: :cascade do |t|
     t.string "name"
@@ -30,5 +30,18 @@ ActiveRecord::Schema.define(version: 2020_02_28_224546) do
     t.index ["mountain_range_id"], name: "index_mountains_on_mountain_range_id"
   end
 
+  create_table "routes", force: :cascade do |t|
+    t.string "name"
+    t.string "trailhead"
+    t.integer "difficulty"
+    t.integer "gain"
+    t.float "length"
+    t.integer "mountain_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["mountain_id"], name: "index_routes_on_mountain_id"
+  end
+
   add_foreign_key "mountains", "mountain_ranges"
+  add_foreign_key "routes", "mountains"
 end
