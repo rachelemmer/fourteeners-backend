@@ -25,12 +25,12 @@ longs = Mountain.create(name: 'Longs Peak', rank: 15, elevation: 14255, image: '
 pikes = Mountain.create(name: 'Pikes Peak', rank: 9, elevation: 14110, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pikespeak.JPG/270px-Pikespeak.JPG', mountain_range: front)
 bierstadt = Mountain.create(name: 'Mt. Bierstadt', rank: 38, elevation: 14060, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2007-07-08-biers-reflectio2.jpg/270px-2007-07-08-biers-reflectio2.jpg', mountain_range: front)
 
-quandary = Mountain.create(name: 'Quandary Peak', rank: 13, elevation: 14265, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/QuandaryPeak.JPG/270px-QuandaryPeak.JPG', mountain_range: tenmile)
+quandary = Mountain.create(name: 'Quandary Peak', rank: 13, elevation: 14265, image: 'https://cdn-assets.alltrails.com/fr/uploads/photo/image/19510361/large_f5e7637ed0232e4f24d1ff3f7ae730a5.jpg', mountain_range: tenmile)
 
 lincoln = Mountain.create(name: 'Mt. Lincoln', rank: 8, elevation: 14286, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Mount_Lincoln_Colorado_July_2016.jpg/270px-Mount_Lincoln_Colorado_July_2016.jpg', mountain_range: mosquito)
 cameron = Mountain.create(name: 'Mt. Cameron', rank: nil, elevation: 14238, image: 'https://14ers.com/photos/lincolngroup/rt_bros6.jpg', mountain_range: mosquito)
 bross = Mountain.create(name: 'Mt. Bross', rank: 22, elevation: 14172, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mt_Bross.jpg/270px-Mt_Bross.jpg', mountain_range: mosquito)
-democrat = Mountain.create(name: 'Mt. Democrat', rank: 28, elevation: 14148, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mt_Democrat.jpg/270px-Mt_Democrat.jpg', mountain_range: mosquito)
+democrat = Mountain.create(name: 'Mt. Democrat', rank: 28, elevation: 14148, image: 'https://media-cdn.tripadvisor.com/media/photo-s/08/e3/34/99/mt-democrat-alma-colorado.jpg', mountain_range: mosquito)
 sherman = Mountain.create(name: 'Mt. Sherman', rank: 45, elevation: 14036, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MountSherman.JPG/270px-MountSherman.JPG', mountain_range: mosquito)
 
 elbert = Mountain.create(name: 'Mt. Elbert', rank: 1, elevation: 14433, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mt._Elbert.jpg/270px-Mt._Elbert.jpg', mountain_range: sawatch)
@@ -67,14 +67,14 @@ sunlight = Mountain.create(name: 'Sunlight Peak', rank: 39, elevation: 14059, im
 handies = Mountain.create(name: 'Handies Peak', rank: 40, elevation: 14048, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Handies_Peak_Colorado.jpg/225px-Handies_Peak_Colorado.jpg', mountain_range: sanjuan)
 northeolus = Mountain.create(name: 'North Eolus Peak', rank: nil, elevation: 14039, image: 'https://i1.wp.com/www.thevirtualsherpa.com//wp-content/uploads/2018/09/DSC_0429-1024x683.jpg?resize=1000%2C667&ssl=1', mountain_range: sanjuan)
 redcloud = Mountain.create(name: 'Redcloud Peak', rank: 46, elevation: 14034, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sanjuan14ers-8.jpg/270px-Sanjuan14ers-8.jpg', mountain_range: sanjuan)
-wilsonpeak = Mountain.create(name: 'Wilson Peak', rank: 48, elevation: 14017, image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Wilson_peak_cropped.jpg', mountain_range: sanjuan)
+wilsonpeak = Mountain.create(name: 'Wilson Peak', rank: 48, elevation: 14017, image: 'https://www.mountainphotography.com/images/xl/20120926-Wilson-Peak-Autumn-Snow.jpg', mountain_range: sanjuan)
 wetterhorn = Mountain.create(name: 'Wetterhorn Peak', rank: 49, elevation: 14015, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wetterhorn_peak.jpg/270px-Wetterhorn_peak.jpg', mountain_range: sanjuan)
 luis = Mountain.create(name: 'San Luis Peak', rank: 50, elevation: 14014, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/San_Luis_view_South.JPG/800px-San_Luis_view_South.JPG', mountain_range: sanjuan)
 sunshine = Mountain.create(name: 'Sunshine Peak', rank: 53, elevation: 14001, image: 'https://sp-images.summitpost.org/209502.JPG?auto=format&fit=max&h=800&ixlib=php-2.1.1&q=35&s=5217f64854566768d6ec1f8f1918ad06', mountain_range: sanjuan)
 
 blanca = Mountain.create(name: 'Blanca Peak', rank: 4, elevation: 14345, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MtBlancaEast.jpg/270px-MtBlancaEast.jpg', mountain_range: sangre)
 crestone = Mountain.create(name: 'Crestone Peak', rank: 7, elevation: 14294, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Crestone_peak_2.jpg/270px-Crestone_peak_2.jpg', mountain_range: sangre)
-needle = Mountain.create(name: 'Crestone Needle', rank: 20, elevation: 14197, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Crestone_needle_and_lower_south_colony_lake_2008.JPG/270px-Crestone_needle_and_lower_south_colony_lake_2008.JPG', mountain_range: sangre)
+needle = Mountain.create(name: 'Crestone Needle', rank: 20, elevation: 14197, image: 'https://www.mountainphotography.com/images/xl/20170831-Crestone-Needle-Sunrise-Light.jpg', mountain_range: sangre)
 kit = Mountain.create(name: 'Kit Carson Peak', rank: 23, elevation: 14165, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kitcarsonmtn.jpg/270px-Kitcarsonmtn.jpg', mountain_range: sangre)
 challenger = Mountain.create(name: 'Challenger Point', rank: 34, elevation: 14081, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Challenger_Point_from_Kit_Carson.JPG/270px-Challenger_Point_from_Kit_Carson.JPG', mountain_range: sangre)
 humboldt = Mountain.create(name: 'Humboldt Peak', rank: 37, elevation: 14064, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg/270px-Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg', mountain_range: sangre)

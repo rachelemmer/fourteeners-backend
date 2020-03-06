@@ -1,7 +1,7 @@
 class MountainsController < ApplicationController
     def index 
         @mountains = Mountain.all 
-        render json: @mountains
+        render json: @mountains, include: [:mountain_range, :routes]
     end 
 
     def show
@@ -17,6 +17,6 @@ class MountainsController < ApplicationController
             image: params[:image],
             mountain_range_id: params[:mountain_range_id]
         )
-        render json: @mountain, include: :mountain_range
+        render json: @mountain, include: [:mountain_range, :routes]
     end 
 end
