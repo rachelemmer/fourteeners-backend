@@ -6,7 +6,7 @@ class MountainsController < ApplicationController
 
     def show
         @mountain = Mountain.find(params[:id])
-        render json: @mountain
+        render json: @mountain, include: [:routes]
     end 
 
     def create
